@@ -1,0 +1,10 @@
+springcloud-Alibaba-dubbo/.idea/
+springcloud-Alibaba-dubbo/api-common/target/
+springcloud-Alibaba-dubbo/api-model/target/
+springcloud-Alibaba-dubbo/api-modules/api-consumer/mvnw
+springcloud-Alibaba-dubbo/api-modules/api-consumer/mvnw.cmd
+springcloud-Alibaba-dubbo/api-modules/api-consumer/.mvn/
+springcloud-Alibaba-dubbo/api-modules/api-provider/mvnw
+springcloud-Alibaba-dubbo/api-modules/api-provider/mvnw.cmd
+springcloud-Alibaba-dubbo/api-modules/api-provider/.mvn/
+springcloud-Alibaba-dubbo/LOG_PATH_IS_UNDEFINED/

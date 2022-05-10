@@ -1,0 +1,16 @@
+server:
+  port: 8882
+  servlet:
+    context-path: /api-consumer
+spring:
+  application:
+    name: api-consumer
+  main:
+    allow-bean-definition-overriding: true
+  # ?? dev|pord|test
+  profiles:
+    #    active: @spring.profiles.active@
+    active: dev
+  output:
+    ansi:
+      enabled: always

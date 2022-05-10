@@ -1,0 +1,16 @@
+server:
+  port: 8881
+  servlet:
+    context-path: /api-provider
+spring:
+  application:
+    name: api-provider
+  main:
+    allow-bean-definition-overriding: true
+  # ?? dev|pord|test
+  profiles:
+    #    active: @spring.profiles.active@
+    active: dev
+  output:
+    ansi:
+      enabled: always
