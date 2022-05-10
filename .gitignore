@@ -8,3 +8,6 @@ springcloud-Alibaba-dubbo/api-modules/api-provider/mvnw
 springcloud-Alibaba-dubbo/api-modules/api-provider/mvnw.cmd
 springcloud-Alibaba-dubbo/api-modules/api-provider/.mvn/
 springcloud-Alibaba-dubbo/LOG_PATH_IS_UNDEFINED/
+springcloud-Alibaba-dubbo/api-gateway/mvnw
+springcloud-Alibaba-dubbo/api-gateway/mvnw.cmd
+springcloud-Alibaba-dubbo/api-gateway/.mvn/

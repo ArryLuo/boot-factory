@@ -17,6 +17,7 @@
         <module>api-model</module>
         <module>api-common</module>
         <module>api-modules</module>
+        <module>api-gateway</module>
     </modules>
     <dependencies>
         <!-- lombok插件-->

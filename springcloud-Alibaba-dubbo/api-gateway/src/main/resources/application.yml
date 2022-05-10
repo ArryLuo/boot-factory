@@ -1,0 +1,16 @@
+server:
+  port: 8883
+  servlet:
+    context-path: /api-gateway
+
+spring:
+  application:
+    name: api-gateway
+  # 环境 dev|pord|test
+  profiles:
+#    active: @spring.profiles.active@
+    active: dev
+  output:
+    ansi:
+      enabled: always
+

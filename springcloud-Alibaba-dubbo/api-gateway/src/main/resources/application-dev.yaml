@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 624e9ff4-b980-4c74-a02f-2acde4152ba1
+        username: nacos
+        password: nacos
+    gateway:
+      #可以配置多个
+      routes:
+        - id: api-consumer
+          uri: lb://api-consumer
+          predicates:
+            #访问地址
+            - Path=/api-gateway/api-consumer/**
+          filters:
+            - StripPrefix=1
+
+logging:
+  config: classpath:logback.xml
+  # config: classpath:logback-custom.xml
+  level:
+    root: info
+    com:
+      arryluo: debug
+  file:
+    path: /logs/api-gateway-${server.port}
